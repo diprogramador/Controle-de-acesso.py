@@ -13,9 +13,12 @@ def registro_unico():
     n = input("Digite seu nome: ")
     i = int(input("Digite sua idade: "))
     e = input("Digite seu endereço: ")
+    
     print('\n---------------------+------------------+-------------------+----------------')
     print("\nOlá" ,n,'!' , "\nSua idade é:" , i ,'anos' '.' , "\nSeu endereço é:" ,e ,'.')
+    
 print('\n---------------------+------------------+-------------------+----------------\n')
+
 controle = ''
 while (controle != 's'):
 	print('c. Registrar novamente', registro_unico())
